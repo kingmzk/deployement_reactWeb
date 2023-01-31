@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client-install" : "cd website && npm install",
     "client-build" : "cd website && npm run build",
-    "heroku-postbuild" : "npm run client-install && npm run client-build"
+    "postbuild": "npm run client-install && npm run client-build"
   },
   "author": "",
   "license": "ISC",

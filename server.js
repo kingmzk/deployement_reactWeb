@@ -23,7 +23,7 @@ const PORT =  process.env.PORT || 8000;
 const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
 
-const URL=process.env.MONGODB_URI || `mongodb+srv://${USERNAME}:${PASSWORD}@websitedb.toiwlq0.mongodb.net/?retryWrites=true&w=majority`;
+const URL=process.env.MONGODB_URI || `mongodb+srv://KING:Password123@websitedb.toiwlq0.mongodb.net/form?retryWrites=true&w=majority`;
 
 Connection(URL);
 
